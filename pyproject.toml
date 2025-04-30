@@ -1,0 +1,11 @@
+[project]
+name = "doccano-deploy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "doccano>=1.8.4",
+    "marshmallow==3.15",
+    "numpy<2",
+]
